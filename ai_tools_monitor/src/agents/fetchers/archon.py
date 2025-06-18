@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 import aiohttp
 from datetime import datetime, timedelta
 from .base import BaseFetcher
-from ..utils.fetcher_utils import (
+from ...utils.fetcher_utils import (
     RateLimiter,
     deduplicate_tools,
     enrich_tool_data,

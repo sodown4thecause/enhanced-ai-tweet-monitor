@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 from .playwright_base import PlaywrightBaseFetcher
-from utils.fetcher_utils import (
+from ...utils.fetcher_utils import (
     RateLimiter,
     PaginationHelper,
     deduplicate_tools,
