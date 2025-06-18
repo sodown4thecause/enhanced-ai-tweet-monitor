@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
+!.env.example
 .venv
 env/
 venv/
@@ -144,3 +145,11 @@ ai_top_tweets.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Credentials and sensitive files
+CREDENTIALS_LOCAL.txt
+CREDENTIALS_*.txt
+*_CREDENTIALS.txt
+*.credentials
+.env.local
+.env.production
